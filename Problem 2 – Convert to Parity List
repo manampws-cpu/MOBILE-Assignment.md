@@ -5,3 +5,20 @@ Go through each number in the list.
 If the number is even, add 0.
 If the number is odd, add 1.
 Return the new list.
+
+START
+
+Input nums
+Create an empty list result
+
+FOR each number in nums
+    IF number MOD 2 = 0 THEN
+        Add 0 to result
+    ELSE
+        Add 1 to result
+    END IF
+END FOR
+
+Return result
+
+STOP
