@@ -6,3 +6,23 @@ Create an empty result list.
 Pop elements one by one from the stack.
 Add each popped element to the result list.
 Return the result list.
+
+START
+
+Input nums
+
+Create empty stack
+Create empty list result
+
+FOR each element in nums
+    Push element into stack
+END FOR
+
+WHILE stack is not empty
+    Pop element from stack
+    Add popped element to result
+END WHILE
+
+Return result
+
+STOP
