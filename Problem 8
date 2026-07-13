@@ -1,0 +1,7 @@
+Problem 8
+✏️ Steps / Flow
+Create an empty set.
+Go through each element in the list.
+If the element is already in the set, return true.
+Otherwise, add the element to the set.
+If no duplicates are found, return false.
