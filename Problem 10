@@ -1,0 +1,7 @@
+Problem 10
+✏️ Steps / Flow
+Assume the first element is unique.
+Compare each element with the previous unique element.
+If it is different, move it to the next unique position.
+Continue until the end of the list.
+Return the total number of unique elements.
