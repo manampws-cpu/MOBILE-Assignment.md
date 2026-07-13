@@ -1,0 +1,8 @@
+Problem 3
+✏️ Steps / Flow
+Set one pointer at the beginning of the list.
+Set another pointer at the end of the list.
+Swap the values at both pointers.
+Move the left pointer forward and the right pointer backward.
+Repeat until both pointers meet.
+Return the reversed list.
