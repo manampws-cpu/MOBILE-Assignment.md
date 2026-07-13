@@ -5,3 +5,21 @@ Go through each element in the list.
 If the element is already in the set, return true.
 Otherwise, add the element to the set.
 If no duplicates are found, return false.
+
+START
+
+Input nums
+
+Create empty set
+
+FOR each element in nums
+    IF element exists in set THEN
+        Return True
+    ELSE
+        Add element to set
+    END IF
+END FOR
+
+Return False
+
+STOP
