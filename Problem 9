@@ -1,0 +1,9 @@
+Problem 9
+✏️ Steps / Flow
+Create an empty set.
+Go through each element in the list.
+Calculate the required value as k − current element.
+Check if the required value exists in the set.
+If it exists, return true.
+Otherwise, add the current element to the set.
+If no pair is found, return false.
