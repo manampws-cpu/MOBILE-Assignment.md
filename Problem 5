@@ -1,0 +1,8 @@
+Problem 5
+✏️ Steps / Flow
+Set one pointer at the beginning of the string.
+Set another pointer at the end of the string.
+Compare both characters.
+If they are different, return false.
+Move both pointers toward the center.
+If all characters match, return true.
