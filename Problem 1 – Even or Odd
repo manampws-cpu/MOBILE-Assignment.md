@@ -1,0 +1,6 @@
+Problem 1 – Even or Odd
+Steps / Flow
+Take the input number.
+Check if the number is divisible by 2.
+If yes, return "Even".
+Otherwise, return "Odd".
