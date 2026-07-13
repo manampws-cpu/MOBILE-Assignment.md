@@ -6,3 +6,23 @@ Compare both characters.
 If they are different, return false.
 Move both pointers toward the center.
 If all characters match, return true.
+
+START
+
+Input string s
+
+left = 0
+right = length(s) - 1
+
+WHILE left < right
+    IF s[left] ≠ s[right] THEN
+        Return False
+    END IF
+
+    left = left + 1
+    right = right - 1
+END WHILE
+
+Return True
+
+STOP
