@@ -1,0 +1,7 @@
+Problem 7
+✏️ Steps / Flow
+Create an empty map.
+Go through each element in the list.
+If the element already exists in the map, increase its count.
+Otherwise, add the element with a count of 1.
+Return the map.
