@@ -1,0 +1,8 @@
+Problem 4
+✏️ Steps / Flow
+Create an empty stack.
+Push all elements into the stack.
+Create an empty result list.
+Pop elements one by one from the stack.
+Add each popped element to the result list.
+Return the result list.
