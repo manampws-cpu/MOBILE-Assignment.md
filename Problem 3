@@ -6,3 +6,20 @@ Swap the values at both pointers.
 Move the left pointer forward and the right pointer backward.
 Repeat until both pointers meet.
 Return the reversed list.
+
+START
+
+Input nums
+
+left = 0
+right = length(nums) - 1
+
+WHILE left < right
+    Swap nums[left] and nums[right]
+    left = left + 1
+    right = right - 1
+END WHILE
+
+Return nums
+
+STOP
