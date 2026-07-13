@@ -1,0 +1,7 @@
+Problem 2 – Convert to Parity List
+Steps / Flow
+Create an empty list.
+Go through each number in the list.
+If the number is even, add 0.
+If the number is odd, add 1.
+Return the new list.
