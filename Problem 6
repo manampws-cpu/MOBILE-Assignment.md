@@ -1,0 +1,7 @@
+Problem 6
+✏️ Steps / Flow
+Set a counter to 0.
+Go through each element in the list.
+Compare the element with k.
+If they are equal, increase the counter.
+Return the final count.
