@@ -5,3 +5,20 @@ Compare each element with the previous unique element.
 If it is different, move it to the next unique position.
 Continue until the end of the list.
 Return the total number of unique elements.
+
+START
+
+Input sorted list nums
+
+index = 0
+
+FOR i = 1 TO length(nums) - 1
+    IF nums[i] ≠ nums[index] THEN
+        index = index + 1
+        nums[index] = nums[i]
+    END IF
+END FOR
+
+Return index + 1
+
+STOP
