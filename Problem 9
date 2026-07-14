@@ -7,3 +7,23 @@ Check if the required value exists in the set.
 If it exists, return true.
 Otherwise, add the current element to the set.
 If no pair is found, return false.
+
+START
+
+Input nums and k
+
+Create empty set
+
+FOR each element in nums
+    target = k - element
+
+    IF target exists in set THEN
+        Return True
+    END IF
+
+    Add element to set
+END FOR
+
+Return False
+
+STOP
